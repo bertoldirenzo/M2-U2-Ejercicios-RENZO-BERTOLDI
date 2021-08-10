@@ -1,0 +1,34 @@
+.cajamaster{
+    display: flex; 
+    width: auto;
+    height: 600px; /* Una longitud necesariamente */ 
+    flex-direction: column;
+    align-items: flex-end; /* Y  (relacionado con align-self) */
+}
+.caja1 {
+    width: 200px;
+    height: 200px;
+    line-height: 200px; /*separacion superior texto*/
+    align-self: auto; /* Y (relacionado con align-items) */
+    text-align: center;
+    background-color:red;
+    color: white;
+}
+.caja2 {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    align-self: auto; /* Y (relacionado con align-items) */
+    text-align: center;
+    background-color:blue;
+    color: white;
+}
+.caja3 {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    align-self: auto; /* Y (relacionado con align-items) */
+    text-align: center;
+    background-color:green;
+    color: white;
+}
